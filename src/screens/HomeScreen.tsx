@@ -2,7 +2,7 @@ import React, { useState, useEffect, use } from 'react';
 import { View, Text, Button, StyleSheet, ActivityIndicator } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/types';
-import { checkBackendHealth } from '../services/api';
+import { checkBackendHealth } from '../api/api';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
